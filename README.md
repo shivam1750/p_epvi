@@ -87,6 +87,5 @@ For the purpose of fine tuning the hyperparameters, `GridSearchCV` was utlized. 
 - Install required python packages from [requirements.txt](https://github.com/nipun-goyal/Residential-Energy-Consumption-Prediction/blob/main/requirements.txt) file by creating virtual environment
 - Activate the virtual environment
 - Open Jupyter notebook and open 1.0-Residential-Energy-Modeling.ipynb
-- Run notebook and observe results
-#   p _ e p v i  
+- Run notebook and observe results 
  
