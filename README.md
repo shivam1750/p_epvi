@@ -80,3 +80,20 @@ Hence, cross validation technique was used to evaluate each model multiple times
 
 Above, we evaluated each of the models multiple times with different dataset using cross validation process. From the table and box plot presented above, we can see that the baseline models more or less perform similar. Let's re-run cross validation after tuning the model hyperparameters
 
+## Hyperparameter Tuning & Model Comparison
+
+For the purpose of fine tuning the hyperparameters, `GridSearchCV` was utlized. A cross validation fold of 5 was choosen across 6 models and results can be observed in the snippets below:
+
+![Tuned Models1](imgs/tuned_models.png)
+![Tuned Models2](imgs/tuned_model_metrics.PNG)
+
+- The results show that the linear models, Lasso and Ridge, have identical average RMSE and r<sup>2</sup> scores
+- The tree based model, Xtreme Gradient Boosting (XGB) has the best RMSE compared to all other linear and tree based models
+
+## How to Run
+
+- Clone or download github files into a local directory
+- Install required python packages from [requirements.txt](https://github.com/shivam1750/p_epvi/blob/main/requirements.txt) file by creating virtual environment
+- Activate the virtual environment
+- Open Jupyter notebook and open 1.0-Residential-Energy-Modeling.ipynb
+- Run notebook and observe results
