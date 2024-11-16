@@ -9,7 +9,7 @@ Contents:
 - [Hyperparameter Tuning & Model Comparison](#hyperparameter-tuning--model-comparison)
 - [How to Run](#how-to-run)
 
-## Overview
+## Overview 
 
 Every four years, [EIA](https://www.eia.gov/consumption/residential/) administers the Residential Energy Consumption Survey (RECS) to a nationally representative sample of housing units across the United States to collect energy characteristics data on the housing unit, usage patterns, and household demographics.
 
